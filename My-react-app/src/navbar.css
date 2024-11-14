@@ -1,0 +1,12 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+button{
+    padding:5px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: medium;
+}
