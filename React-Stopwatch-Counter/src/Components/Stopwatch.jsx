@@ -6,6 +6,7 @@ const Stopwatch = () => {
     const [isValid, setIsValid] = useState(null);
     function handleStartStop(){
         setIsRunning((pre)=>!pre)
+        clearInterval(isValid)
     }
     function handleRestart(){
         setTime(0);
