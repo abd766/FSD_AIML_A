@@ -5,7 +5,10 @@ const Home=()=>{
             <h1>Home Page</h1>
            <ul>
             <li><Link to="/counter">Counter App</Link></li>
+
             <li><Link to="/stopwatch">Stop Watch App</Link></li>
+            <li><Link to="/refex">Ref Example</Link></li>
+
            </ul>
         </div>
     )
