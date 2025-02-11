@@ -1,0 +1,5 @@
+prcoess.nextTick():before callback(timer->object->)
+
+console.trace()
+
+setImmediate()

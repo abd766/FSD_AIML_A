@@ -1,0 +1,17 @@
+// SINGLETON DESIGN PATTERN
+
+class Student{
+    static Student b = new Student();
+    private Student(){
+
+    }
+    static Student getObject(){
+        returun ob;
+    }
+}
+
+class Test{
+    public static void main(String ...a){
+        Studetn st1 = Student.getObject();
+    }
+}
