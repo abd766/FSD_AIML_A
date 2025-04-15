@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup"
 import Product from "./pages/Product";
+import ViewUsers from "./pages/ViewUsers";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,8 +18,8 @@ function App() {
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/viewproducts" element={<Product />} />
-        <Route path="/addproducts" element={<Product />} />
       </Routes>
+        {/* <Route path="/users" element={<ViewUsers />} /> */}
       </BrowserRouter>
     </div>
   );
